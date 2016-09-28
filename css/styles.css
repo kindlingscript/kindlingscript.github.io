@@ -1,0 +1,215 @@
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  color: #4f4f4f;
+  font-size: 16px;
+}
+
+/* HEADERS */
+h1 {
+  font-size: 3.7em;
+}
+
+h2 {
+  font-size: 2.1em;
+}
+
+h3 {
+  font-size: 1.9em;
+}
+
+/* HEADER SECTION */
+.header {
+  margin-top: 3em;
+}
+
+#greeting, #greeting-c {
+  font-family: 'Cabin Sketch', cursive;
+}
+
+#greeting-c {
+  color: #f78932;
+  font-size: 3.7rem;
+}
+
+.intro-2 {
+  margin-top: 3em;
+}
+
+.intro-2 h3 {
+  font-weight: 300;
+}
+
+.header-border {
+  border-top: #f78932 1px solid;
+  padding-top: 2em;
+  width: 4em;
+}
+
+#indent-1 {
+  padding-left: 0.5em;
+}
+
+#indent-2 {
+  padding-left: 1em;
+}
+
+#indent-3 {
+  padding-left: 1.5em;
+}
+
+#indent-4 {
+  padding-left: 2em;
+}
+
+/* ABOUT SECTION */
+.section {
+  margin-top: 2.5em;
+}
+
+.portrait {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.cabin-font, .cabin-font-smaller {
+  color: #f78932;
+  font-family: 'Cabin Sketch', cursive;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.cabin-font-smaller {
+  font-size: 1.8em;
+  margin-bottom: 1.5em;
+}
+
+.base-font {
+  font-weight: 300;
+  text-align: justify;
+  line-height: 1.9em;
+}
+
+/* PORTFOLIO SECTION */
+.border {
+  border-top: #f78932 1px solid;
+  padding-top: 0.3em;
+  width: 4em;
+}
+
+.title, .description {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #4f4f4f;
+}
+
+.item {
+  margin-bottom: 3em;
+}
+
+.more-work {
+  font-weight: 300;
+  text-align: center;
+}
+
+.angel-link {
+  color: #f78932;
+}
+
+/* CONTACT SECTION */
+::-webkit-input-placeholder {
+  color: #4f4f4f;
+}
+
+#name:active, #name:focus,
+#mail:active, #mail:focus {
+  border-bottom: 1px solid #f78932;
+  box-shadow: 0 1px 0 0 #f78932;
+}
+
+#message {
+  height: 6em;
+  margin-top: 1.5em;
+  padding: 5px;
+  text-indent: 3px;
+  resize: vertical;
+}
+
+#message:active, #message:focus {
+  border: 1px solid #f78932;
+  outline: 1px solid #f78932;
+}
+
+.button {
+  margin-top: 1em;
+}
+
+button[type="submit"] {
+  padding: 0.3em 2em;
+  background-color: #f78932;
+  color: #fff;
+  border: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .header {
+    margin-top: 9em;
+  }
+
+  #greeting, #greeting-c {
+    font-size: 5rem;
+  }
+
+  #greeting-c {
+    padding-left: 0.5em;
+  }
+
+  .intro-1 h5 {
+    padding-left: 1.5em;
+    font-weight: 300;
+  }
+
+  .intro-2 {
+    display: none;
+  }
+
+  .intro-2-lg {
+    margin-top: 3em;
+    text-align: center;
+  }
+
+  .intro-2-lg h3 {
+    font-weight: 300;
+  }
+
+  .header-border {
+    display: none;
+  }
+
+  #indent-1, #indent-2, #indent-3, #indent-4 {
+    padding-left: 0;
+  }
+
+  .about {
+    margin-top: 10em;
+  }
+
+  .lg-bottom-sticky {
+    width: 100%;
+    height: 5em;
+    background-color: #f78932;
+    margin-top: 4em;
+  }
+
+  .mouse {
+    display: block;
+    margin: auto;
+    padding-top: 0.5em;
+  }
+}
