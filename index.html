@@ -6,6 +6,7 @@
   <link href="css/normalize.css" rel="stylesheet" />
   <link href="css/materialize.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Source+Sans+Pro:300,400,600" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
@@ -60,7 +61,7 @@
     <div class="col s10 offset-s1 l5 pull-l6 offset-l2">
       <h3 class="cabin-font">thanks for stopping by,</h3>
       <p class="base-font">
-        Ever since I was a kid, I wanted to be an author. At the age of nine, I started writing Bunnicula fanfiction before I even knew what “fanfiction” was. Later I’d move on to writing original ficton and poetry, of which you can find some examples here. Though I’ve still got a poetry and fiction writing bug inside me (& always will), nowadays, my muse mainly works through writing code and designing for the responsive web.</p>
+        Ever since I was a kid, I wanted to be an author. At the age of nine, I started writing Bunnicula fanfiction before I even knew what “fanfiction” was. Later I’d move on to writing original ficton and poetry, of which you can find some examples <a href="#"><span class="writings">here</span></a>. Though I’ve still got a poetry and fiction writing bug inside me (& always will), nowadays, my muse mainly works through writing code and designing for the responsive web. My toolset includes JavaScript, Ruby, WordPress, Sketch, among others.</p>
       <p class="base-font">
         Drawing upon a degree in psychology, the user experience of website or application is what I work on prioritizing first. The web’s for people - <i>technology</i> is for people - and so they come first.
       </p>
@@ -72,54 +73,74 @@
   <section class="portfolio section row">
     <div class="col s10 offset-s1">
       <h3 class="cabin-font-smaller">here’s some of my work:</h3>
-      <a href="/honeyco.html">
-        <div class="item">
-          <h5 class="title">honeyco homes</h5>
-          <div class="border"></div>
-          <h6 class="description">a new landing page</h6>
+      <div class="row">
+        <div class="col l4 offset-l3">
+          <a href="/honeyco.html">
+            <div class="item">
+              <h5 class="title">honeyco homes</h5>
+              <div class="border"></div>
+              <h6 class="description">a new landing page</h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a href="/nashville-nsa.html">
-        <div class="item">
-          <h5 class="title">nashville nsa</h5>
-          <div class="border"></div>
-          <h6 class="description">a ruby on rails application</h6>
+        <div class="col l4">
+          <a href="/nashville-nsa.html">
+            <div class="item">
+              <h5 class="title">nashville nsa</h5>
+              <div class="border"></div>
+              <h6 class="description">a ruby on rails application</h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a href="/challenge.html">
-        <div class="item">
-          <h5 class="title">freelance writer</h5>
-          <div class="border"></div>
-          <h6 class="description">a design challenge</h6>
+      </div>
+      <div class="row">
+        <div class="col l4 offset-l3">
+          <a href="/challenge.html">
+            <div class="item">
+              <h5 class="title">freelance writer</h5>
+              <div class="border"></div>
+              <h6 class="description">a design challenge</h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a href="/tune-out.html">
-        <div class="item">
-          <h5 class="title">tune out</h5>
-          <div class="border"></div>
-          <h6 class="description">a relaxation API hack</h6>
+        <div class="col l4">
+          <a href="/tune-out.html">
+            <div class="item">
+              <h5 class="title">tune out</h5>
+              <div class="border"></div>
+              <h6 class="description">a relaxation API hack</h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <a href="/shopping-list.html">
-        <div class="item">
-          <h5 class="title">my shopping list</h5>
-          <div class="border"></div>
-          <h6 class="description">a javascript list site</h6>
+      </div>
+      <div class="row">
+        <div class="col l4 offset-l3">
+          <a href="/shopping-list.html">
+            <div class="item">
+              <h5 class="title">my shopping list</h5>
+              <div class="border"></div>
+              <h6 class="description">a javascript list site</h6>
+            </div>
+          </a>
         </div>
-      </a>
-      <div class="more-work">
-        <p>
-          to see more, visit my <a href="http://angel.co/kindlingscript" target="_blank" class="angel-link">angel.co</a>
-        </p>
+        <div class="col l4">
+          <div class="more-work">
+            <p>
+              to see more, visit my <a href="http://angel.co/kindlingscript" target="_blank" class="angel-link">angel.co</a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <section class="contact section row">
-    <div class="col s10 offset-s1">
+    <div class="col s10 offset-s1 l5 offset-l1">
       <h3 class="cabin-font">want to get in touch?</h3>
       <p class="base-font">
         Whether you’re interested in talking about my work, hiring me for your project, or just want to say hi, feel free to use the following form. Hope to hear from you soon!
       </p>
+    </div>
+    <div class="col s10 offset-s1 l4 offset-l1">
       <form action="#" method="post">
         <div>
           <input type="text" id="name" placeholder="Your name" />
@@ -137,5 +158,15 @@
       </form>
     </div>
   </section>
+  <footer class="row">
+    <div class="col s10 offset-s1 center-align">
+      <h5>Find me elsewhere:</h5>
+      <a href="https://github.com/kindlingscript" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+      <a href="https://linkedin.com/in/kindlingscript" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+      <a href="https://facebook.com/kindlingscript" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+      <a href="https://twitter.com/kindlingscript" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+      <a href="https://instagram.com/kindlingscript" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+    </div>
+  </footer>
 </body>
 </html>
