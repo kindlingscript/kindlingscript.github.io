@@ -1,3 +1,5 @@
+@import url('writings.css');
+
 html {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -61,6 +63,11 @@ nav ul a:hover {
   font-size: 3.7rem;
 }
 
+.smile {
+  width: 40px;
+  display: inline;
+}
+
 .intro-2 {
   margin-top: 3em;
 }
@@ -93,6 +100,15 @@ nav ul a:hover {
 
 #indent-4 {
   padding-left: 2em;
+}
+
+.btn-large {
+  display: block;
+  margin: auto;
+}
+
+.fa-angle-double-down {
+  padding-right: 0;
 }
 
 /* ABOUT SECTION */
@@ -168,17 +184,9 @@ a {
   box-shadow: 0 1px 0 0 #f78932;
 }
 
-#message {
-  height: 6em;
-  margin-top: 1.5em;
-  padding: 5px;
-  text-indent: 3px;
-  resize: vertical;
-}
-
-#message:active, #message:focus {
-  border: 1px solid #f78932;
-  outline: 1px solid #f78932;
+#message:focus {
+  border-bottom: 1px solid #f78932;
+  box-shadow: 0 1px 0 0 #f78932;
 }
 
 .button {
@@ -224,14 +232,14 @@ footer h5 {
   font-weight: 300;
 }
 
-.fa {
+.social a .fa {
   padding-right: 0.5em;
 }
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 992px) {
   .header {
-    margin-top: 9em;
+    margin-top: 4em;
   }
 
   #greeting, #greeting-c {
@@ -240,6 +248,10 @@ footer h5 {
 
   #greeting-c {
     padding-left: 0.5em;
+  }
+
+  .smile {
+    width: 55px;
   }
 
   .intro-1 h5 {
@@ -252,11 +264,13 @@ footer h5 {
   }
 
   .intro-2-lg {
+    display: block;
     margin-top: 3em;
     text-align: center;
   }
 
-  .intro-2-lg h3 {
+  .intro-2-lg h4 {
+    font-size: 1.8em;
     font-weight: 300;
   }
 
@@ -279,7 +293,7 @@ footer h5 {
   .lg-bottom-sticky {
     width: 100%;
     height: 5em;
-    margin-top: 11em;
+    margin-top: 3.5em;
   }
 
   .mouse {
@@ -318,9 +332,6 @@ footer h5 {
   .more-work {
     text-align: left;
   }
-
-  /* CONTACT */
-
 
   /* PORTFOLIO PAGES */
   .portfolio-header-hc {

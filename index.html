@@ -15,13 +15,13 @@
       <a href="http://kindlingscript.com">ks | rt</a>
       <ul id="nav-mobile" class="right hide-on-small">
         <li>
-          <a href="#" class="text">portfolio</a>
+          <a href="#portfolio" class="text">portfolio</a>
         </li>
         <li>
-          <a href="#">about</a>
+          <a href="#about">about</a>
         </li>
         <li>
-          <a href="#">contact</a>
+          <a href="#contact">contact</a>
         </li>
       </ul>
     </div>
@@ -29,7 +29,7 @@
 
   <section class="header row">
     <div class="intro-1 col s9 offset-s2 l5 offset-l4">
-      <h1 id="greeting">Hello! <img src="images/smile.svg" width="40px" style="inline"/>
+      <h1 id="greeting">Hello! <img src="images/smile.svg" class="smile" />
         <br /> <span id="greeting-c">I'm Rebecca.</span></h1>
       <h5>aka. <img src="images/fire.svg" width="30px" style="inline"/> <img src="images/writing.svg" width="30px" style="inline"/></h5>
       <h5>(kindlingscript)</h5>
@@ -44,14 +44,16 @@
       </h3>
     </div>
   </section>
+
   <div class="row">
     <div class="intro-2-lg col l4 offset-l4">
-      <h2>On a typical day, you'll find me:</h2>
-      <h3>writing, coding, designing.</h3>
+      <h3>On a typical day, you'll find me:</h3>
+      <h4>writing, coding, designing.</h4>
     </div>
   </div>
+
   <div class="lg-bottom-sticky">
-    <img src="images/mouse-white.svg" class="mouse" width="15px" />
+    <a class="btn-floating btn-large waves-effect waves-light orange darken-2"><i class="fa fa-angle-double-down"></i></a>
   </div>
 
   <section class="about section row">
@@ -61,7 +63,7 @@
     <div class="col s10 offset-s1 l5 pull-l6 offset-l2">
       <h3 class="cabin-font">thanks for stopping by,</h3>
       <p class="base-font">
-        Ever since I was a kid, I wanted to be an author. At the age of nine, I started writing Bunnicula fanfiction before I even knew what “fanfiction” was. Later I’d move on to writing original ficton and poetry, of which you can find some examples <a href="#"><span class="writings">here</span></a>. Though I’ve still got a poetry and fiction writing bug inside me (& always will), nowadays, my muse mainly works through writing code and designing for the responsive web. My toolset includes JavaScript, Ruby, WordPress, Sketch, among others.</p>
+        Ever since I was a kid, I wanted to be an author. At the age of nine, I started writing Bunnicula fanfiction before I even knew what “fanfiction” was. Later I’d move on to writing original ficton and poetry, of which you can find some examples <a href="/writings.html"><span class="writings">here</span></a>. Though I’ve still got a poetry and fiction writing bug inside me (& always will), nowadays, my muse mainly works through writing code and designing for the responsive web. My toolset includes JavaScript, Ruby, WordPress, Sketch, among others.</p>
       <p class="base-font">
         Drawing upon a degree in psychology, the user experience of website or application is what I work on prioritizing first. The web’s for people - <i>technology</i> is for people - and so they come first.
       </p>
@@ -75,7 +77,7 @@
       <h3 class="cabin-font-smaller">here’s some of my work:</h3>
       <div class="row">
         <div class="col l4 offset-l3">
-          <a href="/honeyco.html">
+          <a href="/work/honeyco.html">
             <div class="item">
               <h5 class="title">honeyco homes</h5>
               <div class="border"></div>
@@ -84,7 +86,7 @@
           </a>
         </div>
         <div class="col l4">
-          <a href="/nashville-nsa.html">
+          <a href="work/nashville-nsa.html">
             <div class="item">
               <h5 class="title">nashville nsa</h5>
               <div class="border"></div>
@@ -95,7 +97,7 @@
       </div>
       <div class="row">
         <div class="col l4 offset-l3">
-          <a href="/challenge.html">
+          <a href="work/design-challenge.html">
             <div class="item">
               <h5 class="title">freelance writer</h5>
               <div class="border"></div>
@@ -104,7 +106,7 @@
           </a>
         </div>
         <div class="col l4">
-          <a href="/tune-out.html">
+          <a href="work/tune-out.html">
             <div class="item">
               <h5 class="title">tune out</h5>
               <div class="border"></div>
@@ -115,7 +117,7 @@
       </div>
       <div class="row">
         <div class="col l4 offset-l3">
-          <a href="/shopping-list.html">
+          <a href="work/shopping-list.html">
             <div class="item">
               <h5 class="title">my shopping list</h5>
               <div class="border"></div>
@@ -137,7 +139,10 @@
     <div class="col s10 offset-s1 l5 offset-l1">
       <h3 class="cabin-font">want to get in touch?</h3>
       <p class="base-font">
-        Whether you’re interested in talking about my work, hiring me for your project, or just want to say hi, feel free to use the following form. Hope to hear from you soon!
+        Whether you’re interested in talking about my work, hiring me for your project, or just want to say hi, feel free to use the following form.
+      </p>
+      <p class="base-font">
+        Hope to hear from you soon!
       </p>
     </div>
     <div class="col s10 offset-s1 l4 offset-l1">
@@ -148,8 +153,8 @@
         <div>
           <input type="email" id="mail" placeholder="Your email" />
         </div>
-        <div>
-          <textarea id="message" placeholder="Your message"></textarea>
+        <div class="input-field">
+          <textarea id="message" class="materialize-textarea" placeholder="Your message"></textarea>
         </div>
 
         <div class="button">
@@ -159,7 +164,7 @@
     </div>
   </section>
   <footer class="row">
-    <div class="col s10 offset-s1 center-align">
+    <div class="col s10 offset-s1 center-align social">
       <h5>Find me elsewhere:</h5>
       <a href="https://github.com/kindlingscript" target="_blank"><i class="fa fa-github fa-2x"></i></a>
       <a href="https://linkedin.com/in/kindlingscript" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
@@ -168,5 +173,9 @@
       <a href="https://instagram.com/kindlingscript" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
     </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
