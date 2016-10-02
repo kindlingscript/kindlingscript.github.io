@@ -43,6 +43,7 @@ nav ul a  {
   font-size: 1.1em;
   display: inline;
   padding-bottom: 0.2em;
+  font-weight: 300;
 }
 
 nav ul a:hover {
@@ -201,15 +202,64 @@ button[type="submit"] {
 }
 
 /* PORTFOLIO PAGES */
-.portfolio-header-hc {
+.portfolio-header-hc,
+.portfolio-header-nsa,
+.portfolio-header-fw,
+.portfolio-header-to,
+.portfolio-header-sl {
   font-family: 'Cabin Sketch', cursive;
-  color: #425265;
   text-align: center;
+}
+
+.portfolio-header-hc {
+  color: #425265;
+}
+
+.portfolio-header-nsa {
+  color: #1493f1;
+}
+
+.portfolio-header-fw {
+  color: #5e8fc7;
+}
+
+.portfolio-header-to {
+  color: #da737b;
+}
+
+.portfolio-header-sl {
+  color: #e65c73;
 }
 
 .work-description {
   font-weight: 300;
   margin-bottom: 3em;
+}
+
+.centered-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5em;
+}
+
+.btn-nsa, .btn-nsa:hover {
+  background-color: #1493f1;
+}
+
+.btn-to, .btn-to:hover {
+  background-color: #da737b;
+}
+
+.btn-sl, .btn-sl:hover {
+  background-color: #e65c73;
+}
+
+.space {
+  margin-top: 10em;
+}
+
+.bottom {
+  margin-bottom: 6em;
 }
 
 /* FOOTER */
