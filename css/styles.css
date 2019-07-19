@@ -1,4 +1,5 @@
 @import url('writings.css');
+@import url('thank-you.css');
 
 html {
   font-family: 'Source Sans Pro', sans-serif;
@@ -19,7 +20,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.9em;
+  font-size: 1.8em;
 }
 
 /* HEADER SECTION */
@@ -51,17 +52,13 @@ nav ul a:hover {
   border-bottom: 1px solid #f78932;
 }
 
-.header {
-  margin-top: 3em;
-}
-
 #greeting, #greeting-c {
   font-family: 'Cabin Sketch', cursive;
 }
 
 #greeting-c {
   color: #f78932;
-  font-size: 3.7rem;
+  font-size: 3.4rem;
 }
 
 .smile {
@@ -73,8 +70,8 @@ nav ul a:hover {
   margin-top: 3em;
 }
 
-.intro-2 h3 {
-  font-weight: 300;
+.intro-2-header {
+  font-size: 1.6em;
 }
 
 .intro-2-lg {
@@ -103,13 +100,8 @@ nav ul a:hover {
   padding-left: 2em;
 }
 
-.btn-large {
-  display: block;
-  margin: auto;
-}
-
-.fa-angle-double-down {
-  padding-right: 0;
+.lg-bottom-sticky {
+  display: none;
 }
 
 /* ABOUT SECTION */
@@ -131,7 +123,7 @@ nav ul a:hover {
 }
 
 .cabin-font-smaller {
-  font-size: 1.8em;
+  font-size: 1.9rem;
   margin-bottom: 1.5em;
 }
 
@@ -141,7 +133,7 @@ nav ul a:hover {
   line-height: 1.9em;
 }
 
-.writings {
+.underlink {
   border-bottom: 1px solid #f78932;
 }
 
@@ -163,6 +155,10 @@ a {
 
 .item {
   margin-bottom: 3em;
+}
+
+.item:hover .title {
+  font-weight: 400;
 }
 
 .more-work {
@@ -194,7 +190,7 @@ a {
   margin-top: 1em;
 }
 
-button[type="submit"] {
+input[type="submit"] {
   padding: 0.3em 2em;
   background-color: #f78932;
   color: #fff;
@@ -265,7 +261,6 @@ button[type="submit"] {
 /* FOOTER */
 footer {
   background-color: #f78932;
-  height: 10em;
   margin-top: 10em;
 }
 
@@ -286,10 +281,15 @@ footer h5 {
   padding-right: 0.5em;
 }
 
+.copyright {
+  font-weight: 300;
+  padding: 2em 0 0.5em 0;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (min-width: 992px) {
   .header {
-    margin-top: 4em;
+    margin-top: 3em;
   }
 
   #greeting, #greeting-c {
@@ -341,9 +341,19 @@ footer h5 {
   }
 
   .lg-bottom-sticky {
+    display: block;
     width: 100%;
     height: 5em;
     margin-top: 3.5em;
+  }
+
+  .btn-large {
+    display: block;
+    margin: auto;
+  }
+
+  .fa-angle-double-down {
+    padding-right: 0;
   }
 
   .mouse {

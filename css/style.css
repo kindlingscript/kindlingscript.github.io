@@ -1,0 +1,89 @@
+@import url('writings.css');@import url('thank-you.css');html{font-family:'Source Sans Pro', sans-serif;}
+body{color:#4f4f4f;font-size:16px;}
+h1{font-size:3.7em;}
+h2{font-size:2.1em;}
+h3{font-size:1.8em;}
+nav{background-color:#fff;box-shadow:none;}
+nav a{color:#f78932;font-size:1.5em;padding:1.5em;}
+nav ul li{padding-right:1em;}
+nav ul a{color:#4f4f4f;font-size:1.1em;display:inline;padding-bottom:0.2em;font-weight:300;}
+nav ul a:hover{background-color:inherit;border-bottom:1px solid #f78932;}
+#greeting, #greeting-c{font-family:'Cabin Sketch', cursive;}
+#greeting-c{color:#f78932;font-size:3.4rem;}
+.smile{width:40px;display:inline;}
+.intro-2{margin-top:3em;}
+.intro-2-header{font-size:1.6em;}
+.intro-2-lg{display:none;}
+.header-border{border-top:#f78932 1px solid;padding-top:2em;width:4em;}
+#indent-1{padding-left:0.5em;}
+#indent-2{padding-left:1em;}
+#indent-3{padding-left:1.5em;}
+#indent-4{padding-left:2em;}
+.lg-bottom-sticky{display:none;}
+.section{margin-top:2.5em;}
+.portrait{display:block;margin:auto;width:50%;}
+.cabin-font, .cabin-font-smaller{color:#f78932;font-family:'Cabin Sketch', cursive;margin-bottom:0.5em;text-align:center;}
+.cabin-font-smaller{font-size:1.9rem;margin-bottom:1.5em;}
+.base-font{font-weight:300;text-align:justify;line-height:1.9em;}
+.underlink{border-bottom:1px solid #f78932;}
+.border{border-top:#f78932 1px solid;padding-top:0.3em;width:4em;}
+.title, .description{font-weight:300;}
+a{text-decoration:none;color:#4f4f4f;}
+.item{margin-bottom:3em;}
+.item:hover .title{font-weight:400;}
+.more-work{font-weight:300;text-align:center;}
+.angel-link{color:#f78932;}
+::-webkit-input-placeholder{color:#4f4f4f;}
+#name:active, #name:focus,
+#mail:active, #mail:focus{border-bottom:1px solid #f78932;box-shadow:0 1px 0 0 #f78932;}
+#message:focus{border-bottom:1px solid #f78932;box-shadow:0 1px 0 0 #f78932;}
+.button{margin-top:1em;}
+input[type="submit"]{padding:0.3em 2em;background-color:#f78932;color:#fff;border:none;}
+.portfolio-header-hc,
+.portfolio-header-nsa,
+.portfolio-header-fw,
+.portfolio-header-to,
+.portfolio-header-sl{font-family:'Cabin Sketch', cursive;text-align:center;}
+.portfolio-header-hc{color:#425265;}
+.portfolio-header-nsa{color:#1493f1;}
+.portfolio-header-fw{color:#5e8fc7;}
+.portfolio-header-to{color:#da737b;}
+.portfolio-header-sl{color:#e65c73;}
+.work-description{font-weight:300;margin-bottom:3em;}
+.centered-buttons{display:flex;justify-content:center;margin-top:2.5em;}
+.btn-nsa, .btn-nsa:hover{background-color:#1493f1;}
+.btn-to, .btn-to:hover{background-color:#da737b;}
+.btn-sl, .btn-sl:hover{background-color:#e65c73;}
+.space{margin-top:10em;}
+.bottom{margin-bottom:6em;}
+footer{background-color:#f78932;margin-top:10em;}
+footer, footer a{color:#fff;}
+footer.row{margin-bottom:0;}
+footer h5{padding:1.3em 0 0.5em 0;font-weight:300;}
+.social a .fa{padding-right:0.5em;}
+.copyright{font-weight:300;padding:2em 0 0.5em 0;}
+@media only screen and (min-width:992px){.header{margin-top:3em;}
+#greeting, #greeting-c{font-size:5rem;}
+#greeting-c{padding-left:0.5em;}
+.smile{width:55px;}
+.intro-1 h5{padding-left:1.5em;font-weight:300;}
+.intro-2{display:none;}
+.intro-2-lg{display:block;margin-top:3em;text-align:center;}
+.intro-2-lg h4{font-size:1.8em;font-weight:300;}
+.header-border{display:none;}
+#indent-1, #indent-2, #indent-3, #indent-4{padding-left:0;}
+.section{margin-top:7em;}
+.about{margin-top:10em;}
+.lg-bottom-sticky{display:block;width:100%;height:5em;margin-top:3.5em;}
+.btn-large{display:block;margin:auto;}
+.fa-angle-double-down{padding-right:0;}
+.mouse{display:block;margin:auto;padding-top:0.5em;}
+.about:first-child{margin-top:6em;}
+.portrait{margin-top:10em;width:60%;}
+.cabin-font, .cabin-font-smaller{font-size:3em;}
+.base-font{font-size:1.2em;}
+.title{font-size:1.8em;}
+.description{font-size:1.2em;}
+.more-work{text-align:left;}
+.portfolio-header-hc{margin-top:1em;}
+}

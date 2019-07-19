@@ -3,17 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>kindlingscript</title>
-  <link href="css/normalize.css" rel="stylesheet" />
+  <meta name="description" content="Nashville-based web developer, designer, UX enthusiast, and writer." />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet" />
   <link href="css/materialize.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Source+Sans+Pro:300,400,600" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144195353-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144195353-1');
+  </script>
 </head>
 <body>
-  <nav>
+  <nav class="hide-on-small-only">
     <div class="nav-wrapper">
       <a href="http://kindlingscript.com">ks | rt</a>
-      <ul id="nav-mobile" class="right hide-on-small">
+      <ul id="nav-mobile" class="right">
         <li>
           <a href="#portfolio">portfolio</a>
         </li>
@@ -37,18 +48,17 @@
     <div class="intro-2 col s9 offset-s2">
       <div class="header-border"></div>
       <h2>
-        On a typical day, <br /> <span id="indent-1">you'll find me:</span>
+        Writing, coding, and designing is what I do.
       </h2>
-      <h3>
+      <!-- <h3>
         <span id="indent-2">writing,</span><br /><span id="indent-3">coding,</span> <br /> <span id="indent-4">designing.</span>
-      </h3>
+      </h3> -->
     </div>
   </section>
 
   <div class="row">
     <div class="intro-2-lg col l4 offset-l4">
-      <h3>On a typical day, you'll find me:</h3>
-      <h4>writing, coding, designing.</h4>
+      <h3 class="intro-2-header">Writing, coding, and designing is what I do.</h3>
     </div>
   </div>
 
@@ -58,90 +68,101 @@
 
   <section class="about section row">
     <div class="col s10 offset-s1 l5 push-l7">
-      <img src="images/portrait.png" class="portrait" />
+      <img src="images/portrait.jpg" class="portrait" />
     </div>
     <div class="col s10 offset-s1 l5 pull-l6 offset-l2">
       <h3 class="cabin-font">thanks for stopping by,</h3>
       <p class="base-font">
-        Ever since I was a kid, I wanted to be an author. At the age of nine, I started writing Bunnicula fanfiction before I even knew what “fanfiction” was. Later I’d move on to writing original ficton and poetry, of which you can find some examples <a href="/writings.html"><span class="writings">here</span></a>. Though I’ve still got a poetry and fiction writing bug inside me (& always will), nowadays, my muse mainly works through <strong>writing code and designing for the responsive web</strong>. My toolset includes
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="writings">JavaScript</a>,
-        <a href="https://www.ruby-lang.org/en" class="writings">Ruby</a>,
-        <a href="https://wordpress.org" class="writings">WordPress</a>,
-        <a href="https://www.sketchapp.com/" class="writings">Sketch</a>,
-        among others. I'm particularly interested in, and am learning,
-        <a href="https://babeljs.io/docs/learn-es2015/" class="writings">ES6</a>,
-        <a href="https://facebook.github.io/react/index.html" class="writings">React</a>,
-        and <a href="https://nodejs.org/en/" class="writings">Node.js</a>.</p>
+        Ever since I was a kid, I wanted to be an author.
+        At the age of nine, I started writing Bunnicula fanfiction before I even knew what “fanfiction” was.
+        Later I’d move on to writing original ficton and poetry, of which you can find some examples 
+        <a href="/writings.html"><span class="underlink">here</span></a>. Though I still write traditionally, I grew interested in
+         <strong>writing code and designing for the responsive web</strong> back in 2015. My toolset includes
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="underlink" target="_blank">JavaScript</a>,
+        <a href="https://php.net" class="underlink" target="_blank">PHP</a>,
+        <a href="https://wordpress.org" class="underlink" target="_blank">WordPress</a>,
+        <a href="https://www.figma.com/" class="underlink" target="_blank">Figma</a>,
+        among others (and of course HTML/CSS!). I'm particularly interested in, and am in the process of learning
+        <a href="https://babeljs.io/docs/learn-es2015/" class="underlink" target="_blank">ES6</a>,
+        <a href="https://facebook.github.io/react/index.html" class="underlink" target="_blank">React</a>,
+        <a href="http://gulpjs.com/" class="underlink" target="_blank">Gulp</a>,
+        and <a href="https://nodejs.org/en/" class="underlink" target="_blank">Node.js</a>.</p>
       <p class="base-font">
-        Drawing upon a degree in psychology, the user experience of website or application is what I work on prioritizing first. The web’s for people - <i>technology</i> is for people - and so we come first.
+        Drawing upon a degree in psychology, the user experience of website or application is what I work on prioritizing first.
+        The web’s for people - <i>technology</i> is for people - and one can't lose sight of that truth.
       </p>
       <p class="base-font">
-        I’m constantly learning and working on improving my work and myself. Oh, and I enjoy things like comics / graphic novels, video games, synthwave music, and crisp, cool weather. Autumn's my favorite season.
+        I endeavor to always be a student. Beyond technology, I'm interested in foreign languages,
+        photography, and most any form of art. I also enjoy video games and crisp, cool weather.
       </p>
     </div>
   </section>
   <section class="portfolio section row">
     <div class="col s10 offset-s1">
       <h3 class="cabin-font-smaller">here’s some of my work:</h3>
-      <div class="row">
-        <div class="col l4 offset-l3">
-          <a href="/work/honeyco.html">
-            <div class="item">
-              <h5 class="title">honeyco homes</h5>
-              <div class="border"></div>
-              <h6 class="description">a new landing page</h6>
-            </div>
-          </a>
-        </div>
-        <div class="col l4">
-          <a href="/work/nashville-nsa.html">
-            <div class="item">
-              <h5 class="title">nashville nsa</h5>
-              <div class="border"></div>
-              <h6 class="description">a ruby on rails application</h6>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col l4 offset-l3">
-          <a href="/work/design-challenge.html">
-            <div class="item">
-              <h5 class="title">freelance writer</h5>
-              <div class="border"></div>
-              <h6 class="description">a design challenge</h6>
-            </div>
-          </a>
-        </div>
-        <div class="col l4">
-          <a href="/work/tune-out.html">
-            <div class="item">
-              <h5 class="title">tune out</h5>
-              <div class="border"></div>
-              <h6 class="description">a relaxation API hack</h6>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col l4 offset-l3">
-          <a href="/work/shopping-list.html">
-            <div class="item">
-              <h5 class="title">my shopping list</h5>
-              <div class="border"></div>
-              <h6 class="description">a javascript list site</h6>
-            </div>
-          </a>
-        </div>
-        <div class="col l4">
-          <div class="more-work">
-            <p>
-              to see more, visit my <a href="http://angel.co/kindlingscript" target="_blank" class="angel-link">angel.co</a>
-            </p>
+    </div>
+    <div class="row">
+      <div class="col s7 offset-s2">
+        <div class="row">
+          <div class="col m4 offset-m2 l4 offset-l3">
+            <a href="/work/honeyco.html">
+              <div class="item">
+                <h5 class="title">honeyco homes</h5>
+                <div class="border"></div>
+                <h6 class="description">a beta landing page</h6>
+              </div>
+            </a>
+          </div>
+          <div class="col m4 offset-m1 l4 offset-l1">
+            <a href="/work/nashville-nsa.html">
+              <div class="item">
+                <h5 class="title">nashville nsa</h5>
+                <div class="border"></div>
+                <h6 class="description">a custom theme wp site</h6>
+              </div>
+            </a>
           </div>
         </div>
-      </div>
+        <div class="row">
+          <div class="col m4 offset-m2 l4 offset-l3">
+            <a href="/work/design-challenge.html">
+              <div class="item">
+                <h5 class="title">freelance writer</h5>
+                <div class="border"></div>
+                <h6 class="description">a design challenge</h6>
+              </div>
+            </a>
+          </div>
+          <div class="col m4 offset-m1 l4 offset-l1">
+            <a href="/work/tune-out.html">
+              <div class="item">
+                <h5 class="title">tune out</h5>
+                <div class="border"></div>
+                <h6 class="description">a relaxation API hack</h6>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col m4 offset-m2 l4 offset-l3">
+            <a href="/work/shopping-list.html">
+              <div class="item">
+                <h5 class="title">my shopping list</h5>
+                <div class="border"></div>
+                <h6 class="description">a javascript list site</h6>
+              </div>
+            </a>
+          </div>
+          <div class="col m4 offset-m1 l4 offset-l1">
+            <div class="more-work">
+              <p>
+                to see more, visit my <a href="http://angel.co/kindlingscript" target="_blank" class="angel-link">angel.co</a>
+              </p>
+            </div>
+          </div>
+        </div>
     </div>
+  </div>
   </section>
   <section class="contact section row">
     <div class="col s10 offset-s1 l5 offset-l1">
@@ -153,24 +174,27 @@
         Hope to hear from you soon!
       </p>
     </div>
+
     <div class="col s10 offset-s1 l4 offset-l1">
-      <form action="contact.php" method="post">
+      <form action="https://formspree.io/kindlingscript@gmail.com" method="POST">
         <div>
-          <input type="text" id="name" placeholder="Your name" />
+          <input type="text" id="name" name="name" placeholder="Your name" required>
         </div>
         <div>
-          <input type="email" id="mail" placeholder="Your email" />
+          <input type="email" id="mail" name="_replyto" placeholder="Your email" required>
         </div>
         <div class="input-field">
-          <textarea id="message" class="materialize-textarea" placeholder="Your message"></textarea>
+          <textarea id="message" class="materialize-textarea" name="message" placeholder="Your message" required></textarea>
         </div>
-
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_next" value="/thank-you.html" />
         <div class="button">
-          <button type="submit">send</button>
+          <input type="submit" value="send">
         </div>
       </form>
     </div>
   </section>
+
   <footer class="row">
     <div class="col s10 offset-s1 center-align social">
       <h5>Find me elsewhere:</h5>
@@ -179,6 +203,9 @@
       <a href="https://facebook.com/kindlingscript" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
       <a href="https://twitter.com/kindlingscript" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
       <a href="https://instagram.com/kindlingscript" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+      <div class="copyright">
+        © 2019 Rebecca Taylor
+      </div>
     </div>
   </footer>
 

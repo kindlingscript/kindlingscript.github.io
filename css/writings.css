@@ -14,8 +14,8 @@
   color: #f78932;
 }
 
-.first {
-  margin-top: 3em;
+.first-space-between {
+  margin-top: 2em 0 5em 0;
 }
 
 .wr-border {
